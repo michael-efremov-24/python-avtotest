@@ -135,7 +135,7 @@ else:
             try:
                 response = requests.get(host)
             except Exception:
-                Output_file.write("Ошибка при выполнении запроса!")
+                Output_file.write("Oshibka pri vipolnenii zaprosa!")
                 sys.exit()
             time_end = time.perf_counter()
             request_time = time_end - time_start
