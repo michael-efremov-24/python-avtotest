@@ -31,7 +31,7 @@ def Proverka_probelov(String, list_of_keys):
                 print("Отсутствуют пробелы или есть лишние.")
                 return False
     for t in range(0, len(String)):
-        if String[t] == " " and abs(list_of_keys[0] - t) > 1 and abs(list_of_keys[1] - t) > 1 and abs(list_of_keys[2] - t) > 1 and abs(list_of_keys[3] - t) > 1:
+        if String[t] == " " and abs(list_of_keys[0] - t) > 2 and abs(list_of_keys[1] - t) > 2 and abs(list_of_keys[2] - t) > 2 and abs(list_of_keys[3] - t) > 2:
             print("Отсутствуют пробелы или есть лишние.")
             return False
     return True
